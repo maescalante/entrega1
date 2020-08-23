@@ -3,15 +3,16 @@ body{
     background-color:#DAE0F2;
 }
 .banner .img-fluid{
-    max-width: 50%;
+    max-width: 70%;
     max-height: 50%;
     border-radius: 100%;
     background-color: white;
 }
 #imgContent{
-    margin: 20px 0;
+    margin-top:20px;
+
     max-width: 100%;
-    max-height: 80%;
+    max-height: 70%;
 }
 .card{
     margin-right: 20px;
@@ -33,6 +34,10 @@ a{
   font-family: 'Lato';
   font-weight: bolder;
   text-justify: auto;
+}
+figcaption{
+    font-family: 'Lato';
+    text-align: center;
 }
 h2{
   font-size: 2.4em;
@@ -83,4 +88,12 @@ p {
 iframe{
     width: 100%;
     height: 80%;
+    margin-top:10px;
 }
+#icon{
+    height: 100px;
+    width: 80%;
+}
+.checked {
+    color: orange;
+  }

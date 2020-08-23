@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
@@ -36,14 +37,20 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#ac">Academic Information</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link " href="#pro">Projects</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#sk">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#la">Languages</a>
+              </li>
           </ul>
         </div>
       </nav>
@@ -53,6 +60,7 @@
             <div class="col-sm-8">
               <h1>Maria Alejandra Escalante</h1>
               <p>Welcome to my personal webpage!</p>
+              <a href="CVMarch2020.pdf" download><button type="button" class="btn btn-light">Download CV</button></a>
             </div>
             <div class="col-sm-4">
               <img
@@ -66,12 +74,12 @@
       </div>
     </header>
     <main>
-      <section>
+      <section id="about">
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-8">
               <h2>
-                Who am I ?
+                About
               </h2>
               <p>
                 Motivated and skillful undergraduate student pursuing a double
@@ -91,7 +99,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="ac">
         <div class="container-fluid">
           <h2>
             Academic Information
@@ -167,7 +175,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="pro">
         <div class="container-fluid">
           <h2>
             Projects
@@ -175,6 +183,8 @@
           <h3>
             Robocol
           </h3>
+          <h5>Role: Member</h5>
+          <h5>Subsystem: Energy</h5>
           <div class="row">
             <div class="col-sm-7">
               <p>
@@ -186,32 +196,131 @@
                 and implementation of circuits and energy systems for
                 controlling the traction, arm, cameras, and antennas
               </p>
-            
             </div>
             <div class="col-sm-5">
-              
-                    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" type="text/html" src="https://www.youtube.com/embed/mAgGcRZ_gUs?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0"></iframe>
-                    
-              
-                
+              <iframe
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                type="text/html"
+                src="https://www.youtube.com/embed/mAgGcRZ_gUs?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0"
+              ></iframe>
+            </div>
+          </div>
+
+          <h3>
+            Robotics Automation Society Uniandes
+          </h3>
+          <h5>Role: President</h5>
+          <h5>Subgroup: Minisumo</h5>
+          <div class="row">
+            <div class="col-sm-5">
+              <img id="imgContent"src=ras.jpg class="img-fluid">
+            </div>
+            <div class="col-sm-7">
+              <p>
+                The Robotics Automation Society (RAS) is a IEEE association
+                chapter focused on implementation and usage of robots. The
+                chapter is currently focused on the design and programming of
+                robots for competitions such as <a href="https://www.youtube.com/watch?v=O6_1q7rJWSY" target="_blank">Mini Sumo </a> or <a href="https://www.youtube.com/watch?v=db6oKIfeocs" target="_blank">Line follower</a>. This
+                year the chapter is looking towards participating in new
+                competitions such as <a href="https://www.youtube.com/watch?v=s_A8hrs6CT8" target="_blank">Robot Soccer</a> or <a href="https://www.youtube.com/watch?v=cYCMcdjEetY" target="_blank">Micromouse</a>.
+              </p>
+              <p> Some competitions available for such robots are:</p>
+              <ul>
+                  <li>
+                     <a href="http://roboticpeople.com/rop-fest-sofa-2020/" target="_blank">Robotics People Fest</a> 
+                  </li>
+                  <li>
+                      <a href="https://www.runibot.com/">RUNIBOT</a>
+                  </li>
+                  <li><a href="https://lnr-argentina.com.ar/">Liga nacional de robótica en argentina</a> </li>
+              </ul>
+
             </div>
           </div>
         </div>
       </section>
 
-      <section>
+      <section id="sk">
         <div class="container-fluid">
           <h2>
             Skills
           </h2>
+        <div class="row">
+            <figure><img id="icon" src="https://www.python.org/static/opengraph-icon-200x200.png" class=img-fluid alt="python"></a>
+                <figcaption>Python</figcaption>
+            </figure>
+
+            <figure><img id="icon" src="https://www.manualweb.net/img/logos/java.png" class=img-fluid alt="java"></a>
+                <figcaption>Java</figcaption>
+            </figure>
+
+            <figure><img id="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ros_logo.svg/1280px-Ros_logo.svg.png" class=img-fluid alt="ROS"></a>
+                <figcaption>ROS</figcaption>
+            </figure>
+
+            <figure><img id="icon" src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" class=img-fluid alt="Matlab"></a>
+                <figcaption>Matlab</figcaption>
+            </figure>
+
+            <figure><img id="icon" src="https://download.logo.wine/logo/Oracle_SQL_Developer/Oracle_SQL_Developer-Logo.wine.png" class=img-fluid alt="SQL"></a>
+                <figcaption>SQL</figcaption>
+            </figure>
+
+            <figure><img id="icon" src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/21_Angular-512.png" class=img-fluid alt="angular"></a>
+                <figcaption>Angular</figcaption>
+            </figure>
+
+            <figure><img id="icon" src="https://pngimg.com/uploads/github/github_PNG58.png" class=img-fluid alt="github"></a>
+                <figcaption>Github</figcaption>
+            </figure>
+
+        </div>
         </div>
       </section>
 
-      <section>
+      <section id="la">
         <div class="container-fluid">
           <h2>
             Languages
           </h2>
+          <div class=row>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Spanish</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Native</h6>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">English</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Fluent</h6>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">German </h5>
+              <h6 class="card-subtitle mb-2 text-muted">A2</h6>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked "></span>
+              <span class="fa fa-star "></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+        </div>
         </div>
       </section>
     </main>
