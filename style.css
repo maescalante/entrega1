@@ -61,10 +61,9 @@ p {
 
 
 
-
-
 .navbar{
     background-color: #52234e;
+    
 }
 .navbar .navbar-brand{
     color:white;
@@ -75,6 +74,7 @@ p {
 .navbar .navbar-nav li a{
     color:white;
 }
+
 
 iframe{
     width: 100%;
