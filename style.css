@@ -64,9 +64,6 @@ p {
   font-weight: 150;
   letter-spacing: 5px;
 
-  
-
-
 }
 
 .navbar {
@@ -99,6 +96,7 @@ iframe {
   background-image: url(pics/london2.png);
   background-color: #111344e1;
   background-blend-mode: lighten;
+  margin-left: 20px;
   }
 
 footer {
