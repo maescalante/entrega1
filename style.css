@@ -30,10 +30,7 @@ a {
   font-family: "Lato";
   font-weight: bolder;
 }
-div p {
-  text-align: justify; /* For Edge */
-  text-align-last: left;
-}
+
 
 figcaption {
   font-family: "Lato";
@@ -64,9 +61,10 @@ h1 {
 
 p {
   font-size: 1.1em;
-  font-weight: bold;
+  font-weight: 120;
   letter-spacing: 5px;
-  color:black;
+  color: black;
+  
 
 
 }
@@ -90,7 +88,7 @@ iframe {
   margin-top: 10px;
 }
 #icon {
-  height: 10vw;
+  height: 20vh;
   max-width: 100%;
   object-fit: cover;
 }
@@ -101,8 +99,7 @@ iframe {
   background-image: url(pics/london2.png);
   background-color: #111344e1;
   background-blend-mode: lighten;
-  
-}
+  }
 
 footer {
   background: #16222a;
